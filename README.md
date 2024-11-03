@@ -14,13 +14,14 @@ A aplicação está organizada em três pacotes principais:
 
 - **src**
     - **main**
-        - **controller**
-            - `Controller.java` - Controla as ações dos botões, conectando o `Model` e o `View`.
-        - **model**
-            - `Model.java` - Gerencia o valor do contador e contém os métodos para incrementar e resetar.
-        - **view**
-            - `View.java` - Exibe a interface com os botões e o rótulo de contagem.
-        - `Main.java` - Ponto de entrada do programa.
+        - **java**
+          - **controller**
+              - `Controller.java` - Controla as ações dos botões, conectando o `Model` e o `View`.
+          - **model**
+              - `Model.java` - Gerencia o valor do contador e contém os métodos para incrementar e resetar.
+          - **view**
+              - `View.java` - Exibe a interface com os botões e o rótulo de contagem.
+          - `Main.java` - Ponto de entrada do programa.
 
 ## Arquitetura MVC
 
